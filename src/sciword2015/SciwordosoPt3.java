@@ -15,6 +15,8 @@ import java.awt.Insets;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
@@ -26,6 +28,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JSlider;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 import javax.swing.Timer;
@@ -67,19 +70,21 @@ public class SciwordosoPt3{
 class Sciwordoso3Panel extends JPanel implements ActionListener{
 	private static final long serialVersionUID = 1L;
 	boolean paused = false, done = false;
-	int origtime = 0, time = 0, stage = 0;
+	int origtime = 0, time = 0, stage = 0, gameDiff = 1;
 	Entry ent = null;
 	WeightedRandom wRnd;
 	ArrayList<Entry> entries = new ArrayList<Entry>();
 	ArrayList<Entry> quizFirst = new ArrayList<Entry>();
 	ArrayList<Entry> right = new ArrayList<Entry>();
 	ArrayList<Entry> wrong = new ArrayList<Entry>();
+	ArrayList<Entry> skipped = new ArrayList<Entry>();
 	ArrayList<String> insults = new ArrayList<String>();
 	Timer refresher;
 	JTextField input = new JTextField(25);
-	JLabel scoreLabel = new JLabel("0 / 0 / 0"),
+	JLabel scoreLabel = new JLabel("0 / 0 / 0 / 0"),
 			promptLabel = new JLabel("Enter time (min):");
-	JButton timeButton = new JButton("Time not set");
+	JButton timeButton = new JButton("Set difficulty");
+	JSlider diffSlider = new JSlider(JSlider.HORIZONTAL, 1, 5, 1);
 	
 	public Sciwordoso3Panel(){		
 		setBackground(new Color(230,240,255));
@@ -102,29 +107,34 @@ class Sciwordoso3Panel extends JPanel implements ActionListener{
 		gridbag.setConstraints(timeButton, c);
 		add(timeButton);
 		
+		diffSlider.setMajorTickSpacing(1);
+		diffSlider.setPaintTicks(true);
+		diffSlider.createStandardLabels(1);
+		diffSlider.setPaintLabels(true);
+		c.insets = new Insets(40,0,0,0);
+		gridbag.setConstraints(diffSlider,c);
+		add(diffSlider);
+		
 		promptLabel.setFont(new Font("Arial",Font.PLAIN,48));
 		promptLabel.setHorizontalAlignment(JLabel.CENTER);
-		c.insets = new Insets(150,0,0,0);
+		c.insets = new Insets(75,0,0,0);
 		gridbag.setConstraints(promptLabel, c);
 		add(promptLabel);
-		
+			
 		input.addActionListener(this);
 		input.setFont(new Font("Arial",Font.PLAIN,48));
 		input.setHorizontalAlignment(JTextField.CENTER);
-		c.insets = new Insets(50,0,0,0);
+		c.insets = new Insets(40,0,0,0);
 		gridbag.setConstraints(input, c);
 		add(input);
 
 		setVisible(true);
-		
-		int[] v = {1,2,3,4,5};
-		int[] p = {5,4,3,2,1};
-		wRnd = new WeightedRandom(v,p);
-		
+				
 		refresher = new Timer(1000, new ActionListener(){
 			public void actionPerformed(ActionEvent e){
 				if(!paused){
 					time--;
+					timeButton.setText(String.format("%01d:%02d", time/60, time%60));	
 					if(time<0){
 						end();
 					}
@@ -190,7 +200,8 @@ class Sciwordoso3Panel extends JPanel implements ActionListener{
 	private void generate(){
 		int c = right.size();
 		int m = wrong.size();
-		scoreLabel.setText(c + " / " + m + " / " + (m+c));
+		int s = skipped.size();
+		scoreLabel.setText(c + " / " + m + " / " + s + " / " + (s+m+c));
 		
 		if(entries.isEmpty()) end();
 		else{
@@ -243,11 +254,13 @@ class Sciwordoso3Panel extends JPanel implements ActionListener{
 		getWords(new File("resources/missed.txt"), quizFirst);
 		Collections.shuffle(entries);
 		Collections.shuffle(quizFirst);
+		diffSlider.setVisible(true);
 		promptLabel.setText("Enter time (min):");
 		timeButton.setText("Time not set");
-		scoreLabel.setText("0 / 0 / 0");
+		scoreLabel.setText("0 / 0 / 0 / 0");
 		input.setText("");
 	}
+
 	
 	public void actionPerformed(ActionEvent e){
 		if(e.getSource().equals(input)){
@@ -281,21 +294,29 @@ class Sciwordoso3Panel extends JPanel implements ActionListener{
 		}
 		else if(e.getSource().equals(timeButton)){
 			if(stage==1){
-				timeButton.setText("Pause");				
+				timeButton.setText(String.format("%01d:%02d", time/60, time%60));	
+				timeButton.setBackground(new JButton().getBackground());
 				refresher.start();
+				gameDiff = diffSlider.getValue();
+				diffSlider.setVisible(false);
+				int[] v = {1,2,3,4,5};
+				int[][] mat = {{5,4,3,2,1}, {4,5,3,2,1}, {2,4,5,3,1}, {1,2,4,5,3}, {1,2,3,4,5}};
+				int[] p = mat[gameDiff-1];
+				wRnd = new WeightedRandom(v,p);
 				generate();
-				stage = 2;	
+				stage = 2;
 			}
 			else if(stage==2){
 				if(!paused){
 					paused=true;
-					promptLabel.setText("Paused (" + String.format("%01d:%02d", time/60, time%60)+ " remaining)");
-					timeButton.setText("Resume");
+					promptLabel.setText("Paused");
+					timeButton.setText(String.format("%01d:%02d", time/60, time%60)+ " remaining");
 				}
 				else{
 					paused=false;
-					timeButton.setText("Pause");
-					wrong.add(ent);
+					timeButton.setText(String.format("%01d:%02d", time/60, time%60));	
+					timeButton.setBackground(new JButton().getBackground());
+					skipped.add(ent);
 					generate();
 				}
 			}
@@ -419,7 +440,8 @@ class Sciwordoso3Panel extends JPanel implements ActionListener{
 		public String toString(){
 			return name;
 		}
-	}	
+	}
+
 }
 
 class WeightedRandom{
