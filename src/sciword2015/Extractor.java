@@ -10,14 +10,16 @@ import java.util.TreeSet;
 public class Extractor {
 	public static void main(String[] args){
 		
-		Scanner in;
+		Scanner in, in2;
 		try {
-			in = new Scanner(new File("resources/alldoubles.txt"));
+			in = new Scanner(new File("resources/alldouble.txt"));
+			in2 = new Scanner(new File("resources/asdasd.txt"));
 		} catch (FileNotFoundException e) {
 			in = new Scanner(System.in);
+			in2 = new Scanner(System.in);
 			System.out.println(e);
 		}
-		combine(in);
+		xcheck(in,in2);
 	}
 	public static void test1(Scanner in){
 		
@@ -168,7 +170,17 @@ public class Extractor {
 		for(String s:words)
 			System.out.println(s);
 	}
-	public static void xcheck(Scanner in){
+	public static void xcheck(Scanner in, Scanner in2){
+		ArrayList<String> full = new ArrayList<String>();
+		ArrayList<String> cur = new ArrayList<String>();
+		ArrayList<String> diff = new ArrayList<String>();
 		
+		while(in.hasNextLine()) full.add(in.nextLine());
+		while(in2.hasNextLine()) cur.add(in2.nextLine());
+		for(String s: full)
+			if(!cur.contains(s))
+				diff.add(s);
+		for(String s: diff)
+			System.out.println(s);
 	}
 }

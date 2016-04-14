@@ -244,7 +244,8 @@ class Sciwordoso3Panel extends JPanel implements ActionListener{
 		stage=0;
 		ent=null;
 		int[] v = {1,2,3,4,5};
-		int[] p = {5,4,3,2,1};
+		int[][] mat = {{5,4,3,2,1}, {3,6,3,2,1}, {2,3,6,3,1}, {1,2,4,5,3}, {1,2,3,4,5}};
+		int[] p = mat[gameDiff-1];
 		wRnd = new WeightedRandom(v,p);
 		entries.clear();
 		quizFirst.clear();
@@ -300,7 +301,7 @@ class Sciwordoso3Panel extends JPanel implements ActionListener{
 				gameDiff = diffSlider.getValue();
 				diffSlider.setVisible(false);
 				int[] v = {1,2,3,4,5};
-				int[][] mat = {{5,4,3,2,1}, {4,5,3,2,1}, {2,4,5,3,1}, {1,2,4,5,3}, {1,2,3,4,5}};
+				int[][] mat = {{5,4,3,2,1}, {3,6,3,2,1}, {2,3,6,3,1}, {1,2,4,5,3}, {1,2,3,4,5}};
 				int[] p = mat[gameDiff-1];
 				wRnd = new WeightedRandom(v,p);
 				generate();
@@ -412,6 +413,7 @@ class Sciwordoso3Panel extends JPanel implements ActionListener{
 			return s;
 		}
 		public int eDist(String s1, String s2){
+			if(s1.length()==0 || s2.length()==0) return Math.max(s1.length(), s2.length());
 			int[][] mat = new int[s1.length()+1][s2.length()+1];
 			mat[s1.length()-1][s2.length()-1] =
 					s1.charAt(s1.length()-1) == s2.charAt(s2.length()-1) ? 0:1;

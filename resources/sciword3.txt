@@ -1,704 +1,492 @@
-1	3	metabolism	catabolism	anabolism
+2	3	metabolism	catabolism	anabolism
+2	3	landslide	mudflow	avalanche
 1	3	vein	artery	capillary
-1	3	marrow	periosteum	cartilage
+2	3	marrow	periosteum	cartilage
 1	3	beach	shoreline	coast
-1	3	distillation	purification	desalination
-1	3	batholith	laccolith	dike
+3	3	distillation	purification	desalination
+5	3	batholith	laccolith	dike
 1	3	dermis	skin	epidermis
+1	3	kelvin	celsius	fahrenheit
+2	3	sperm	egg	gamete
+4	3	imprinting	conditioning	habituation
 1	3	antibiotic	vaccine	immunity
-1	3	genotype	phenotype	karyotype
+2	3	genotype	phenotype	karyotype
 1	3	microscope	magnification	lens
 1	3	crater	meteor	meteorite
 1	3	ecosystem	habitat	niche
 1	3	carnivore	herbivore	omnivore
-1	3	diffusion	permeability	osmosis
-1	3	eclipse	umbra	penumbra
-1	3	butte	mesa	plateau
-1	3	sonar	sound	radar
-1	3	lead	pitch	screw
-1	3	igneous	metamorphic 	sedimentary
-1	3	commensalism	mutualism	symbiosis
-1	3	gravitropism	phototropism	thigmotropism
-1	3	hibernation	estivation	torpor
-1	3	transparent	opaque	translucent
-1	3	caldera	dome	volcano
-1	3	swamp	marsh	wetland
-1	3	imprinting	conditioning	habituation
-1	3	kelvin	celsius	fahrenheit
-1	3	cavity	hole	pore
-1	3	alveoli	bronchus	trachea
-1	3	sperm	egg	gamete
-1	3	epiglottis	gullet	pharynx
-1	2	nematode	annelid
-1	2	flatworm	roundworm
-1	2	decomposer	saprophyte
-1	2	lightyear	astronomical unit
+3	3	diffusion	permeability	osmosis
+2	3	eclipse	umbra	penumbra
+3	3	epiglottis	gullet	pharynx
+2	3	butte	mesa	plateau
+2	3	cavity	hole	pore
+2	3	sonar	sound	radar
+4	3	lead	pitch	screw
+3	3	igneous	metamorphic 	sedimentary
+3	3	commensalism	mutualism	symbiosis
+4	3	gravitropism	phototropism	thigmotropism
+2	3	hibernation	estivation	torpor
+2	3	alveoli	bronchus	trachea
+2	3	transparent	opaque	translucent
+2	3	caldera	dome	volcano
+3	3	swamp	marsh	wetland
+4	2	nematode	annelid
+3	2	flatworm	roundworm
+3	2	decomposer	saprophyte
+2	2	lightyear	astronomical unit
 1	2	telescope	astrolabe
-1	2	zenith	azimuth
-1	2	quasar	black hole
-1	2	sunspot	corona
+5	2	zenith	azimuth
+3	2	quasar	black hole
+4	2	sunspot	corona
 1	2	astronomy	cosmology
 1	2	orbit	ellipse
-1	2	crescent	gibbous
-1	2	geostationary	geosynchronous
+2	2	crescent	gibbous
+4	2	carrying capacity	logistic growth
+3	2	geostationary	geosynchronous
 1	2	asteroid	meteoroid
 1	2	galaxy	milky way 
-1	2	protostar	nebula
-1	2	pulsar	neutron star
-1	2	comet	oort cloud
-1	2	apogee	perigee
-1	2	aphelion	perihelion
-1	2	constellation	polaris
-1	2	planetesimal	protoplanet
-1	2	dwarf	red giant
+3	2	protostar	nebula
+2	2	pulsar	neutron star
+2	2	comet	oort cloud
+5	2	apogee	perigee
+5	2	aphelion	perihelion
+2	2	constellation	polaris
+3	2	planetesimal	protoplanet
+2	2	dwarf	giant
 1	2	launch	rocket
 1	2	revolution	rotation
 1	2	probe	satellite
 1	2	lunar	solar
-1	2	prominence	solar flare
-1	2	equinox	solstice
+2	2	prominence	solar flare
+2	2	equinox	solstice
+5	2	sympatric	alopatric
 1	2	nova	star
 1	2	moon	sun
 1	2	big bang	supernova
+1	2	exoplanet	kuiper belt
 1	2	planet	syzygy
 1	2	space	universe
-1	2	red shift	parallax
-1	2	waning	waxing
-1	2	extinction	abortion
-1	2	specialization	diversity
-1	2	pollen	allergen
-1	2	ptyalin	amylase
-1	2	digestion	pepsin
-1	2	catabolic	anabolic
-1	2	sessile	anchorage dependence
+3	2	red shift	parallax
+3	2	waning	waxing
+2	2	extinction	abortion
+3	2	specialization	diversity
+2	2	pollen	allergen
+2	2	nitrogenous base	nucleotide
+5	2	ptyalin	amylase
+3	2	digestion	pepsin
+4	2	catabolic	anabolic
+5	2	sessile	anchorage dependence
 1	2	plant	animal
-1	2	antigen	antibody
+2	2	antigen	antibody
 1	2	arthropod	mollusk
-1	2	methanogen	archaea
+5	2	methanogen	archaea
 1	2	ventricle	atrium
-1	2	dendrite	axon
+2	2	dendrite	axon
 1	2	vertebra	backbone
 1	2	virus	bacteria
-1	2	conjugation	binary fission
+3	2	conjugation	binary fission
 1	2	ecology	biology
-1	2	hemoglobin	blood
-1	2	red	blue
+2	2	hemoglobin	blood
+3	2	black	white
+3	2	red	blue
 1	2	muscle	bone
-1	2	cellulose	cell wall
-1	2	centrioles	centrosome
-1	2	cerebellum	cerebrum
+2	2	cellulose	cell wall
+4	2	centrioles	centrosome
+3	2	cerebellum	cerebrum
 1	2	pigment	chlorophyll
 1	2	chromosome	chromatin
-1	2	phylogeny	cladogram
-1	2	grafting	cloning
-1	2	population	community
-1	2	cooperation	competition
+5	2	phylogeny	cladogram
+4	2	grafting	cloning
+2	2	population	community
+2	2	cooperation	competition
 1	2	deciduous	coniferous
-1	2	deformation	denature
-1	2	scavenger	detrivore
-1	2	livestock	domestication
-1	2	recessive	dominant
+4	2	deformation	denature
+3	2	scavenger	detrivore
+3	2	livestock	domestication
+2	2	recessive	dominant
 1	2	exoskeleton	chitin
-1	2	peristalsis	esophagus
+2	2	peristalsis	esophagus
 1	2	algae	eutrophication
-1	2	endocytosis	exocytosis
-1	2	cytoskeleton	extracellular matrix
+4	2	endocytosis	exocytosis
+3	2	cytoskeleton	extracellular matrix
 1	2	germ	pathogen
 1	2	disease	infection
-1	2	intrusion	extrusion
-1	2	phototaxis	eyespot
-1	2	glycolysis	fermentation
+3	2	intrusion	extrusion
+5	2	phototaxis	eyespot
+3	2	glycolysis	fermentation
 1	2	amphibian	fish
 1	2	cilia	flagella
 1	2	liver	gall bladder
-1	2	autosome	allosome
-1	2	fern	gametophyte
-1	2	agar	gel electrophoresis
-1	2	lysosome	plastid
+3	2	autosome	allosome
+2	2	fern	gametophyte
+3	2	agar	gel electrophoresis
+2	2	lysosome	plastid
 1	2	savannah	grassland
-1	2	hermaphrodite	groundworm
-1	2	angiosperm	gymnosperm
+3	2	hermaphrodite	groundworm
+2	2	angiosperm	gymnosperm
 1	2	gene	heredity
-1	2	autotroph	heterotroph
+2	2	autotroph	heterotroph
 1	2	gland	hormone
 1	2	fungus	hyphae
-1	2	gestation	incubation
-1	2	crossing over	independent assortment
-1	2	pancreas	insulin
-1	2	agriculture	irrigation
-1	2	group	isolation
+3	2	gestation	incubation
+4	2	crossing over	independent assortment
+2	2	pancreas	insulin
+2	2	agriculture	irrigation
+2	2	group	isolation
 1	2	forest	jungle
-1	2	organism	life
-1	2	receptor	ligand
+1	2	organism	species
+5	2	receptor	ligand
 1	2	heart	lung
-1	2	leukocyte	erythrocyte
-1	2	macrophage	lymphocyte
-1	2	bacteriophage	retrovirus
-1	2	metamorphosis	maturation
-1	2	lateral	medial
+4	2	leukocyte	erythrocyte
+4	2	macrophage	lymphocyte
+3	2	bacteriophage	retrovirus
+2	2	metamorphosis	maturation
+4	2	lateral	medial
 1	2	mitosis	meiosis
-1	2	stoma	mesophyll
+3	2	stoma	mesophyll
+3	2	overfishing	overharvesting
 1	2	growth	decay
 1	2	chloroplast	mitochondria
-1	2	migration	mobile
-1	2	dicotyledon	monocotyledon
-1	2	lichen	moss
+2	2	migration	mobile
+4	2	dicotyledon	monocotyledon
+2	2	lichen	moss
 1	2	adaptation	evolution
-1	2	natural selection	mutation
+2	2	natural selection	mutation
 1	2	environment	nature
-1	2	benthos	nekton
+5	2	benthos	nekton
 1	2	kidney	nephron
 1	2	neuron	nerve
 1	2	brain	spinal cord
-1	2	septum	nostril
-1	2	schwann cell	myelin sheath
+3	2	septum	nostril
+5	2	schwann cell	myelin sheath
 1	2	fertilization	sex
-1	2	amoeba	paramecium
-1	2	host	parasite
-1	2	amensalism	parasitism
-1	2	active	passive
+2	2	amoeba	paramecium
+3	2	host	parasite
+4	2	amensalism	parasitism
+2	2	active	passive
 1	2	stomach	intestine
-1	2	culture	petri dish
-1	2	pinocytosis	phagocytosis
-1	2	membrane	phospholipid
-1	2	kinase	phosphorylation
+3	2	culture	petri dish
+4	2	pinocytosis	phagocytosis
+3	2	membrane	phospholipid
+5	2	kinase	phosphorylation
 1	2	respiration	photosynthesis
-1	2	anatomy	physiology
-1	2	embryo	placenta
-1	2	microorganism	plankton
-1	2	plasma	platelet
-1	2	sponge	Porifera
+2	2	anatomy	physiology
+2	2	embryo	placenta
+2	2	microorganism	plankton
+3	2	plasma	platelet
+3	2	sponge	Porifera
 1	2	predator	prey
 1	2	consumer	producer
 1	2	eukaryote	prokaryote
 1	2	ribosome	protein
-1	2	euglena	protist
-1	2	metazoan	protozoan
-1	2	gradualism	punctuationist
+2	2	euglena	protist
+4	2	metazoan	protozoan
+5	2	gradualism	punctuationist
 1	2	larva	pupa
-1	2	instinct	reflex
-1	2	replication	reproduction
+2	2	instinct	reflex
+3	2	replication	reproduction
 1	2	mammal	reptile
 1	2	cardiovascular	respiratory
-1	2	nodule	root
+2	2	nodule	root
 1	2	primary	secondary
-1	2	groin	sexual
-1	2	molting	shedding
-1	2	bacilli	spirilli
-1	2	coccus	spirochaetes
-1	2	mold	sporophyte
-1	2	behavior	stimulus
-1	2	stigma	style
+2	2	groin	sexual
+3	2	molting	shedding
+5	2	bacilli	spirilli
+5	2	coccus	spirochaetes
+4	2	mold	sporophyte
+2	2	behavior	stimulus
+2	2	stigma	style
 1	2	hypothalamus	hippocampus
 1	2	enzyme	substrate
-1	2	neurotransmitter	synapse
-1	2	classification	taxonomy
-1	2	ligament	tendon
-1	2	arm	tentacle
-1	2	estrogen	testosterone
-1	2	organ	tissue
+3	2	neurotransmitter	synapse
+2	2	classification	taxonomy
+2	2	ligament	tendon
+3	2	arm	tentacle
+3	2	estrogen	testosterone
+2	2	organ	tissue
 1	2	bird	ornithology
-1	2	larynx	voice box
-1	2	allele	trait
+3	2	larynx	voice box
+2	2	allele	trait
 1	2	transcription	translation
-1	2	canopy	understory
-1	2	bile	urea
-1	2	ureter	urethra
+2	2	canopy	understory
+1	2	body	soma
+3	2	bile	urea
+2	2	ureter	urethra
 1	2	aorta	vena cava
 1	2	chordate	vertebrate
-1	2	vacuole	vesicle
-1	2	homologous	vestigial organ
+2	2	vacuole	vesicle
+4	2	homologous	vestigial organ
 1	2	organelle	cytosol
 1	2	nutrient	vitamin
 1	2	phloem	xylem
-1	2	botany	zoology
-1	2	blastula	zygote
-1	2	symptom	syndrome
-1	2	pseudopod	plasmid
-1	2	lymph	interstitial fluid
-1	2	organic	acetate
+2	2	botany	zoology
+3	2	blastula	zygote
+3	2	symptom	syndrome
+4	2	pseudopod	plasmid
+4	2	lymph	interstitial fluid
+3	2	organic	acetate
 1	2	catalyst	activation energy
-1	2	nitrogen	ammonia
-1	2	neutralization	amphoteric
-1	2	aqueous	anhydrous
-1	2	mole	avogadro
+2	2	nitrogen	ammonia
+3	2	neutralization	amphoteric
+2	2	aqueous	anhydrous
+2	2	mole	avogadro
 1	2	acid	base
 1	2	anion	cation
-1	2	concentration	molarity
-1	2	stoichiometry	dimensional analysis
-1	2	electronegativity	electron affinity
-1	2	orbital	electron cloud
+2	2	concentration	molarity
+4	2	stoichiometry	dimensional analysis
+3	2	shielding	ionization energy
+3	2	electronegativity	electron affinity
+4	2	orbital	electron cloud
 1	2	compound	element
-1	2	enthalpy	entropy
-1	2	endothermic	exothermic
+2	2	enthalpy	entropy
+2	2	endothermic	exothermic
 1	2	lipid	fat
 1	2	gasoline	fuel
 1	2	fission	fusion
-1	2	flammability	gasohol
-1	2	carbohydrate	glucose
+3	2	flammability	gasohol
+3	2	carbohydrate	glucose
 1	2	meniscus	graduated cylinder
 1	2	radioactivity	half-life
 1	2	equilibrium	homeostasis
-1	2	nonpolar	hydrocarbon
-1	2	immiscible	insoluble
+2	2	nonpolar	hydrocarbon
+3	2	immiscible	insoluble
 1	2	covalent	ionic
-1	2	ductility	malleability
+2	2	ductility	malleability
 1	2	atom	molecule
 1	2	evaporation	vaporization
-1	2	buffer	neutral
-1	2	isotope	nucleus
-1	2	chlorofluorocarbon	ozone
-1	2	indicator	ph
-1	2	elasticity	plasticity
+3	2	buffer	neutral
+2	2	isotope	nucleus
+3	2	chlorofluorocarbon	ozone
+2	2	indicator	ph
+4	2	elasticity	plasticity
 1	2	material	substance
-1	2	plastic	polymer
+2	2	plastic	polymer
 1	2	reactant	product
-1	2	smelting	pyrometallurgy
-1	2	reaction	rate
-1	2	oxidation	reduction
-1	2	metalloid	semimetal
-1	2	miscible	soluble
+5	2	smelting	pyrometallurgy
+2	2	reaction	rate
+4	2	oxidation	reduction
+2	2	metalloid	semimetal
+2	2	miscible	soluble
 1	2	mixture	solution
 1	2	solute	solvent
-1	2	absorption	spectroscope
-1	2	reactivity	stability
+4	2	absorption	spectroscope
+3	2	reactivity	stability
 1	2	calorie	sugar
-1	2	viscosity	surface tension
-1	2	colloid	suspension
+2	2	viscosity	surface tension
+4	2	colloid	suspension
 1	2	heat	thermal
-1	2	calorimetry	thermochemistry
-1	2	dating	age
-1	2	delta	alluvial fan
-1	2	geyser	artesian spring
-1	2	archipelago	island
-1	2	atoll	lagoon
-1	2	air	atmosphere
+4	2	calorimetry	thermochemistry
+2	2	dating	age
+2	2	delta	alluvial fan
+2	2	geyser	artesian spring
+2	2	archipelago	island
+2	2	atoll	lagoon
+2	2	air	atmosphere
 1	2	pressure	barometer
-1	2	sinkhole	limestone
-1	2	compost	biodegradable
+3	2	sinkhole	limestone
+3	2	compost	biodegradable
 1	2	biome	biosphere
-1	2	barrier	boundary
+2	2	barrier	boundary
 1	2	estuary	brackish water
 1	2	peninsula	cape
 1	2	waterfall	cataract
-1	2	bitumen	cementation
-1	2	hardness	cleavage
-1	2	sill	cliff
-1	2	anthracite	coal
-1	2	cavern	crevasse
-1	2	amorphous	crystal
-1	2	overgrazing	desertification
-1	2	compaction	dispersion
-1	2	dislocation	displacement
-1	2	convergent	divergent
-1	2	multiply	divide
-1	2	rift	trench
-1	2	drift	dune
+3	2	bitumen	cementation
+3	2	hardness	cleavage
+3	2	sill	cliff
+2	2	anthracite	coal
+3	2	cavern	crevasse
+3	2	amorphous	crystal
+4	2	overgrazing	desertification
+4	2	compaction	dispersion
+4	2	dislocation	displacement
+2	2	convergent	divergent
+3	2	multiply	divide
+3	2	rift	trench
+2	2	drift	dune
 1	2	seismology	earthquake
-1	2	gyre	eddy
+2	2	gyre	eddy
 1	2	altitude	elevation
-1	2	levee	floodplain
+2	2	levee	floodplain
 1	2	fault	fracture
 1	2	paleontology	geology
-1	2	geosphere	global
-1	2	aquifer	groundwater
+2	2	geosphere	global
+2	2	aquifer	groundwater
 1	2	bay	gulf
 1	2	port	harbor
 1	2	geocentric	heliocentric
-1	2	humidity	hygrometer
-1	2	fjord	inlet
-1	2	horizon	landscape
-1	2	meltwater	leachate
+3	2	humidity	hygrometer
+3	2	fjord	inlet
+3	2	horizon	landscape
+5	2	meltwater	leachate
 1	2	latitude	longitude
 1	2	lava	magma
-1	2	equator	meridian
-1	2	forecast	meteorology
-1	2	storm	monsoon
+2	2	equator	meridian
+3	2	forecast	meteorology
+3	2	storm	monsoon
 1	2	minute	hour
 1	2	month	year
 1	2	day	night
-1	2	glacier	moraine
+2	2	glacier	moraine
 1	2	hill	mountain
-1	2	landslide	mudflow
-1	2	map	legend
-1	2	navigation	oceanography
-1	2	greenhouse gas	global warming
-1	2	continent	pangaea
-1	2	sediment	particulate
-1	2	lignite	peat
-1	2	infiltration	percolation
+3	2	map	legend
+3	2	navigation	oceanography
+2	2	greenhouse effect	global warming
+3	2	continent	pangaea
+4	2	sediment	particulate
+3	2	lignite	peat
+4	2	infiltration	percolation
 1	2	fossil	dinosaur
-1	2	oil	petroleum
-1	2	arable	potable
+2	2	oil	petroleum
+4	2	arable	potable
 1	2	precipitation	rain
-1	2	reclamation	recycling
-1	2	dam	reservoir
-1	2	watershed	basin
+3	2	reclamation	recycling
+3	2	dam	reservoir
+3	2	watershed	basin
 1	2	lake	river
 1	2	mineral	rock
-1	2	drainage	runoff
-1	2	salinity	saltation
-1	2	longshore	sandbar
+3	2	drainage	runoff
+4	2	salinity	saltation
+4	2	longshore	sandbar
 1	2	grassland	savannah
 1	2	ocean	sea
-1	2	guyot	seamount
+5	2	guyot	seamount
 1	2	hemisphere	season
-1	2	deposition	sedimentation
-1	2	folding	shearing
-1	2	loess	silt
+2	2	deposition	sedimentation
+3	2	folding	shearing
+3	2	loess	silt
 1	2	pollution	smog
-1	2	coral	polyp
-1	2	stalagmite	stalactite
-1	2	isthmus	strait
-1	2	structure	strata
-1	2	luster	streak
-1	2	convection	subduction
-1	2	anticline	syncline
+2	2	colony	reef
+3	2	coral	polyp
+3	2	stalagmite	stalactite
+3	2	isthmus	strait
+3	2	structure	strata
+3	2	luster	streak
+2	2	convection	subduction
+5	2	anticline	syncline
 1	2	plain	desert
-1	2	plate tectonics	continental drift
+2	2	plate tectonics	continental drift
 1	2	lightning	thunder
-1	2	relief	topography
+2	2	relief	topography
 1	2	hurricane	tornado
-1	2	meander	tributary
+2	2	meander	tributary
 1	2	temperate	tropical
 1	2	taiga	tundra
 1	2	cyclone	typhoon
 1	2	tsunami	wave
-1	2	rural	urban
+3	2	rural	urban
 1	2	canyon	valley
 1	2	tide	upwelling
 1	2	climate	weather
 1	2	erosion	weathering
-1	2	blizzard	wildfire
+2	2	blizzard	wildfire
 1	2	breeze	wind
-1	2	area	perimeter
-1	2	axis	graph
-1	2	binary	hexadecimal
-1	2	correlation	data
-1	2	differentiation	integration
-1	2	division	multiplication
-1	2	equation	formula
-1	2	estimation	significant digit
-1	2	factor	multiple
-1	2	function	method
-1	2	parallel	perpendicular
+2	2	area	perimeter
+3	2	axis	graph
+3	2	binary	hexadecimal
+2	2	correlation	data
+4	2	differentiation	integration
+3	2	division	multiplication
+2	2	equation	formula
+2	2	estimation	significant digit
+2	2	factor	multiple
+3	2	function	method
+2	2	parallel	perpendicular
 1	2	point	period
-1	2	radius	diameter
-1	2	subscript	exponent
-1	2	bar graph	line plot
-1	2	coefficient	slope
-1	2	cohesion	adhesion
-1	2	direct	alternating
-1	2	density	buoyancy
+2	2	radius	diameter
+3	2	subscript	exponent
+4	2	bar graph	line plot
+3	2	coefficient	slope
+2	2	cohesion	adhesion
+3	2	direct	alternating
+2	2	density	buoyancy
 1	2	electricity	circuit
-1	2	concave	convex
-1	2	trough	crest
+2	2	concave	convex
+3	2	trough	crest
 1	2	ampere	current
 1	2	matter	energy
-1	2	tesla	faraday
-1	2	extensor	flexor
+4	2	tesla	faraday
+5	2	extensor	flexor
 1	2	magnetism	flux
-1	2	drag	friction
-1	2	acceleration	gravity
-1	2	momentum	impulse
-1	2	wedge	inclined plane
-1	2	conductor	insulator
-1	2	potential	kinetic
-1	2	fulcrum	lever
-1	2	effort	load
-1	2	intensity	magnitude
-1	2	field	medium
-1	2	reflection	mirror
+2	2	drag	friction
+2	2	acceleration	gravity
+3	2	momentum	impulse
+3	2	wedge	inclined plane
+2	2	conductor	insulator
+3	2	potential	kinetic
+2	2	fulcrum	lever
+3	2	effort	load
+3	2	intensity	magnitude
+3	2	field	medium
+2	2	reflection	mirror
 1	2	inertia	motion
 1	2	force	newton
-1	2	amplitude	oscillation
-1	2	quantum mechanics	string theory
-1	2	compression	rarefaction
-1	2	diffraction	refraction
-1	2	capacitance	resistance
-1	2	capacitor	resistor
-1	2	vibration	resonance
-1	2	machine	robot
-1	2	light	shadow 
-1	2	pulley	simple machine
-1	2	prism	spectrum
+2	2	amplitude	oscillation
+4	2	quantum mechanics	string theory
+4	2	compression	rarefaction
+3	2	diffraction	refraction
+2	2	capacitance	resistance
+2	2	capacitor	resistor
+2	2	vibration	resonance
+3	2	machine	robot
+3	2	light	shadow 
+3	2	pulley	simple machine
+2	2	prism	spectrum
 1	2	state	phase
-1	2	spring	tension
+3	2	spring	tension
 1	2	temperature	thermometer
-1	2	luminosity	brightness
-1	2	moment	torque
+2	2	luminosity	brightness
+4	2	moment	torque
 1	2	speed	velocity
 1	2	battery	voltage
-1	2	flask	beaker
-1	2	decibel	loudness
-1	2	power	watt
+2	2	flask	beaker
+3	2	decibel	loudness
+2	2	power	watt
 1	2	frequency	wavelength
-1	2	joule	work
-1	2	property	attribute
-1	2	variable	constant
-1	2	change	conversion
-1	2	meter	distance
-1	2	aggregation	distribution
-1	2	cause	effect
-1	2	bias	error
+2	2	joule	work
+3	2	property	attribute
+3	2	variable	constant
+4	2	change	conversion
+3	2	meter	distance
+4	2	aggregation	distribution
+3	2	cause	effect
+3	2	bias	error
 1	2	trial	experiment
-1	2	evidence	fact
-1	2	resolution	focus
+4	2	evidence	fact
+3	2	resolution	focus
 1	2	conclusion	hypothesis
-1	2	theory	law
-1	2	observation	measurement
-1	2	engineering	mechanical
-1	2	efficiency	mechanical advantage
+2	2	theory	law
+3	2	observation	measurement
+3	2	engineering	mechanical
+3	2	efficiency	mechanical advantage
 1	2	value	number
-1	2	kilogram	pound
-1	2	accuracy	precision
-1	2	inference	prediction
-1	2	question	problem
+3	2	kilogram	pound
+2	2	accuracy	precision
+3	2	inference	prediction
+3	2	question	problem
 1	2	objective	purpose
-1	2	qualitative	quantitative
-1	2	empiricism	rationalism
-1	2	normal	regular
-1	2	absolute	relative
-1	2	investigation	research
-1	2	balance	scale
-1	2	reproducible	spinoff
-1	2	sample	specimen
+4	2	qualitative	quantitative
+3	2	empiricism	rationalism
+4	2	normal	regular
+2	2	absolute	relative
+4	2	investigation	research
+2	2	balance	scale
+5	2	reproducible	spinoff
+3	2	sample	specimen
 1	2	system	technology
-1	2	scalar	vector
+3	2	scalar	vector
 1	2	liter	volume
 1	2	mass	weight
-1	2	results	yield
-1	2	signal	pheromone
-1	2	cold-blooded	ectotherm
-1	2	warm-blooded	endotherm
-1	2	actual 	theoretical
-1	1	albert's chair	stress
-1	1	amino condom	codon
-1	1	ankle	sprain
-1	1	aparicio	chemistry
-1	1	ashwin computers	nanotechnology
-1	1	ashwin murchison	microbiology
-1	1	balcony	terrace
-1	1	bike	cycle
-1	1	breathe in	inhale
-1	1	breathe out	exhale
-1	1	fart action	windbreak
-1	1	butt hamas	analysis
-1	1	caps lock	shift
-1	1	cell gel	cytoplasm
-1	1	circuit flux	electromagnetism
-1	1	contagious	communicable
-1	1	curved bacteria	vibrios
-1	1	different allele	heterozygous
-1	1	different mixture	heterogeneous
-1	1	dump	landfill
-1	1	earthquake measurer	seismograph
-1	1	fake	artificial
-1	1	fish lung	gill
-1	1	jungle rebuilding	reforestation
-1	1	friends	budding
-1	1	geoffrey	physics
-1	1	global issues	sustainability
-1	1	gravitational equilibrium	isostasy
-1	1	heart beater	pacemaker
-1	1	heat study	thermodynamics
-1	1	human project	genome
-1	1	insect killer	pesticide
-1	1	jail	cell
-1	1	james	bond
-1	1	kessel run	parsec
-1	1	knowledge	science
-1	1	many jails	multicellular
-1	1	meeting	interaction
-1	1	mountain general	landform
-1	1	mozart	composition
-1	1	northern lights	aurora
-1	1	not sara	response
-1	1	not stupefied	petrified
-1	1	old flux	paleomagnetism
-1	1	old weather	paleoclimate
-1	1	one jail	unicellular
-1	1	origin	source
-1	1	population study	demography
-1	1	rowing	ore
-1	1	salt lover	halophile
-1	1	same allele	homozygous
-1	1	same mixture	homogeneous
-1	1	same concentration	isotonic
-1	1	same heat	isotherm
-1	1	same pressure	isobar
-1	1	sandals	chaparral
-1	1	slave	chain
-1	1	sleeping	coma
-1	1	soda fizziness	carbonation
-1	1	sucking	leaching
-1	1	supplies	resource
-1	1	preservation	conservation
-1	1	thirsty	dehydration
-1	1	upton	model
-1	1	water farming	aquaculture
-1	1	waterfall energy	hydroelectricity
-1	1	wave copulation	interference
-1	1	drake	ion
-1	1	weed	joint
-1	1	containing xylem	vascular plant
-1	1	wind measurer	anemometer
-1	1	with oxygen	aerobic
-1	1	without oxygen	anaerobic
-1	1	yummy	food
-1	1	inner skin	endoderm
-1	1	outer skin	ectoderm
-1	1	middle skin	mesoderm
-1	1	dirty aqua	freshwater
-1	1	santa	polar
-1	1	plant sweating	transpiration
-1	1	leaf shedding	exfoliation
-1	1	two santa	dipole
-1	1	single plastic	monomer
-1	1	teen growth	puberty
-1	1	aqua	water
-1	1	spider general	arachnid
-1	1	snail general	gastropod
-1	1	octopus general	cephalopod
-1	1	clam general	bivalve
-1	1	crab general	crustacean
-1	1	du twerque	cirque
-1	1	percussion curve	drumlin
-1	1	jellyfish general	cnidarian
-1	1	6 legs	insect
-1	1	starfish general	echinoderm
-1	1	neuron body	soma
-1	1	chemistry rain	precipitate
-1	1	full solution	saturated
-1	1	republican girl	rille
-1	1	television station	channel
-1	1	disease study	epidemiology
-1	1	abbreviate	condensation
-1	1	drake atmosphere	ionosphere
-1	1	balloon element	helium
-1	1	banana element	potassium
-1	1	battery element	lithium
-1	1	blue element	cobalt
-1	1	bone element	calcium
-1	1	bone seeing	x ray
-1	1	bottom atmosphere	Troposphere
-1	1	breathing element	oxygen
-1	1	broom cloud	nimbus
-1	1	broom stable	nimbostratus
-1	1	can element	tin
-1	1	center earth	core
-1	1	chemists die	barium
-1	1	chickpea	humus
-1	1	wispy cloud	cirrus
-1	1	wispy stable	cirrostratus
-1	1	cold atmosphere	cryosphere
-1	1	color atmosphere	chromosphere
-1	1	computer element	silicon
-1	1	cotton	cloud
-1	1	cow particle	muon
-1	1	death light	gamma ray
-1	1	droplet form	dew point
-1	1	electron general	lepton
-1	1	elsa	freezing
-1	1	expensive element	platinum
-1	1	falcon element	aluminum
-1	1	filament licking	tungsten
-1	1	firework element	magnesium
-1	1	first element	hydrogen
-1	1	first planet	mercury
-1	1	five pennies	nickel
-1	1	fluorescent element	neon
-1	1	flux atmosphere	magnetosphere
-1	1	food heating	microwave
-1	1	fourth element	beryllium
-1	1	high stable	altostratus
-1	1	hot atmosphere	Thermosphere
-1	1	hot light	infrared
-1	1	idiot element	boron
-1	1	jets medals	argon
-1	1	light particle	photon
-1	1	liquid element	bromine
-1	1	mass particle	higgs boson
-1	1	match element	phosphorus
-1	1	mendeleev	periodic table
-1	1	meteor element	iridium
-1	1	middle atmosphere	Mesosphere
-1	1	middle earth	mantle
-1	1	middle periodic	transition metal
-1	1	not alloy	nonmetal
-1	1	organic element	carbon
-1	1	outer atmosphere	Exosphere
-1	1	outer earth	crust
-1	1	penny element	zinc
-1	1	pool element	chlorine
-1	1	purple element	iodine
-1	1	quantum particle	quark
-1	1	quantum questions	fermion
-1	1	rocky earth	lithosphere
-1	1	royal fart	noble gas
-1	1	salty element	sodium
-1	1	santa jail	polar cell
-1	1	santa westerlies	polar easterlies
-1	1	seeing 	visible light
-1	1	sia element	titanium
-1	1	simmer	boiling
-1	1	slow wind	doldrums
-1	1	smelly element	sulfur
-1	1	solid gas	sublimation
-1	1	stable atmosphere	Stratosphere
-1	1	stable cloud	stratus
-1	1	sticky particle	gluon
-1	1	sunny delilah	radio wave
-1	1	super purple	ultraviolet
-1	1	tax 0	domain
-1	1	tax 1	kingdom
-1	1	tax 2	phylum
-1	1	tax 3	class
-1	1	tax 4	order
-1	1	tax 5	family
-1	1	tax 6	genus
-1	1	tax 7	species
-1	1	tony stark	iron
-1	1	toothpaste element	fluorine
-1	1	undetectable particle	neutrino
-1	1	wire element	copper
-1	1	wisdom earth	aesthenosphere
-1	1	witch	melting
-1	1	dirt	soil
-1	1	dirt above	topsoil
-1	1	dirt below	subsoil
-1	1	mother substance	parent material
-1	1	pillow stone	bedrock
-1	1	continuous breeze	prevailing winds
-1	1	rotation wind	coriolis effect
-1	1	sailing breeze	trade winds
-1	1	equestrian longitude	horse latitudes
-1	1	puffy	cumulus
-1	1	wispy puffy	cirrocumulus
-1	1	high puffy	altocumulus
-1	1	puffy broom	cumulonimbus
-1	1	stable puffy	stratocumulus
-1	1	plant wing	leaf
-1	1	testicle	ovary
-1	1	creepy aunt	peduncle
-1	2	easterlies	westerlies
-1	2	actinide	lanthanide
-1	2	baryon	hadron
-1	2	gold	silver
-1	2	halogen	alkali
-1	2	alloy	metal
-1	2	metalloid	semimetal
-1	2	neutron	proton
-1	2	pi	tau
-1	2	pion	meson
-1	2	neptunium	plutonium
-1	2	positron	electron
-1	2	sepal	calyx
-1	2	petal	corolla
-1	2	filament	anther
-1	2	fruit	flower
-1	2	spore	seed
-1	2	trunk	stem
-1	2	pistil	stamen
-1	3	sand	clay	loam
-1	2	stigma	style
+3	2	results	yield
+5	2	signal	pheromone
+3	2	cold-blooded	ectotherm
+3	2	warm-blooded	endotherm
+4	2	centromere	kinetochore
+3	2	actual 	theoretical
+3	2	span 	expectancy
+4	2	smooth	striated
+3	2	centrifugal	centripetal
+1	2	radiation	uranium
+5	2	bathyal	benthic
+2	2	preservation	conservation
+1	2	physical	chemical
+3	2	pioneer	foundation
